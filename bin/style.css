@@ -1,0 +1,27 @@
+.background {
+    -fx-background-image: url("fundo.jpeg");
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.login-card {
+    -fx-background-color: rgba(255, 255, 255, 0.9);
+    -fx-background-radius: 15;
+    -fx-padding: 15;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0.5, 0, 4);
+    -fx-max-width: 300;
+    -fx-max-height: 350; 
+}
+
+.botao-login {
+    -fx-background-color: #28a745; 
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 10 20;
+}
+.texto-usuario {
+	-fx-background-color: #d6dee2;
+}
+.senha-oculta {
+	-fx-background-color: #d6dee2;
+}
